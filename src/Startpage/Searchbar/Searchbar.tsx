@@ -1,7 +1,8 @@
-import React from "react"
+import React, { useState } from "react"
 
 import styled from "@emotion/styled"
 
+import { quotes } from "../../data/data"
 import duckduckgo from "../../data/pictures/duckduckgo.svg"
 import ecosia from "../../data/pictures/ecosia.svg"
 import google from "../../data/pictures/google.svg"
@@ -22,7 +23,7 @@ const StyledSearchbarContainer = styled.div`
 `
 const StyledSearchbar = styled.input`
   width: 100%;
-  font-size: 30pt;
+  font-size: 26pt;
 
   background-color: rgba(0, 0, 0, 0);
   color: var(--default-color);
@@ -74,11 +75,16 @@ export const Searchbar = () => {
     }
   }
 
+  const [quote, setQuote] = useState(() => {
+    const randomIndex = Math.floor(Math.random() * quotes.length)
+    return quotes[randomIndex]
+  })
+
   return (
     <StyledSearchbarContainer>
       {searchSymbol && <SearchIcon src={searchSymbol} />}
       <StyledSearchbar
-        placeholder="Always stay clean!"
+        placeholder={quote}
         type="input"
         onKeyUp={e => e.which === 13 && redirectToSearch(e.currentTarget.value)}
         autoFocus
