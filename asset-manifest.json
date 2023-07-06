@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "./static/css/main.42fcf7fb.css",
-    "main.js": "./static/js/main.8b80d3ca.js",
+    "main.js": "./static/js/main.9008e5aa.js",
     "static/media/pic_8.png": "./static/media/pic_8.4387a5b982e94311f550.png",
+    "static/media/DEATH.jpg": "./static/media/DEATH.8d785082d41b9a59a174.jpg",
     "static/media/pic_5.jpg": "./static/media/pic_5.5d0bfb2465d8ddd5f0f5.jpg",
+    "static/media/duck.gif": "./static/media/duck.f42bd61761717385f821.gif",
     "static/media/pic_7.jpg": "./static/media/pic_7.5125a16fb9841edb115a.jpg",
     "static/media/FiraCode-Regular.woff": "./static/media/FiraCode-Regular.19a2738eed5f65644ea5.woff",
     "static/media/pic_2.jpg": "./static/media/pic_2.8edbb3607d549bb68660.jpg",
@@ -19,10 +21,10 @@
     "static/media/google.svg": "./static/media/google.ec244b8ebe146cd90661080d2506d67f.svg",
     "index.html": "./index.html",
     "main.42fcf7fb.css.map": "./static/css/main.42fcf7fb.css.map",
-    "main.8b80d3ca.js.map": "./static/js/main.8b80d3ca.js.map"
+    "main.9008e5aa.js.map": "./static/js/main.9008e5aa.js.map"
   },
   "entrypoints": [
     "static/css/main.42fcf7fb.css",
-    "static/js/main.8b80d3ca.js"
+    "static/js/main.9008e5aa.js"
   ]
 }
