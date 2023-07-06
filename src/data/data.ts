@@ -1,4 +1,6 @@
 import { queryToken } from "../Startpage/Searchbar/Searchbar"
+import pic_9 from "./pictures/DEATH.jpg"
+import pic_10 from "./pictures/duck.gif"
 import pic_1 from "./pictures/pic_1.jpg"
 import pic_2 from "./pictures/pic_2.jpg"
 import pic_3 from "./pictures/pic_3.jpg"
@@ -165,6 +167,8 @@ export const images: dataElem[] = [
   { label: "pic_6", value: pic_6 },
   { label: "pic_7", value: pic_7 },
   { label: "pic_8", value: pic_8 },
+  { label: "pic_9", value: pic_9 },
+  { label: "pic_10", value: pic_10 },
 ]
 
 export const quotes: string[] = [
@@ -383,6 +387,26 @@ export const themes: Theme[] = [
       "--default-color": "#E3C9BC",
       "--accent-color": "#91C6CC",
       "--accent-color2": "#F0F8FA",
+    },
+  },
+  {
+    name: "Duck",
+    image: pic_10,
+    colors: {
+      "--bg-color": "#283037",
+      "--default-color": "#ADD7F0",
+      "--accent-color": "#FEFCFE",
+      "--accent-color2": "#024A80",
+    },
+  },
+  {
+    name: "DEATH",
+    image: pic_9,
+    colors: {
+      "--bg-color": "#2E2E2E",
+      "--default-color": "#F1E5C5",
+      "--accent-color": "#F2655B",
+      "--accent-color2": "#350805",
     },
   },
 ]
