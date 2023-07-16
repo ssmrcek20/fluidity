@@ -12,6 +12,16 @@ const StyledAccordionContainer = styled.div`
   margin-left: 100px;
   display: flex;
   width: calc(100% - 400px - 100px);
+
+  @media screen and (max-width: 1400px) {
+    margin-left: 50px;
+    width: calc(100% - 300px - 50px);
+  }
+
+  @media screen and (max-width: 1200px) {
+    margin-left: 0px;
+    width: calc(100%);
+  }
 `
 
 export const AccordionContainer = ({ children }: PropsWithChildren) => (

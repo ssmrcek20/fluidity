@@ -33,6 +33,11 @@ const Image = styled.img`
 
   animation: circling-shadow 4s ease 0s infinite normal;
 
+  @media screen and (max-width: 1400px) {
+    height: 300px;
+    width: 300px;
+  }
+
   @media screen and (max-width: 1200px) {
     display: none;
   }
